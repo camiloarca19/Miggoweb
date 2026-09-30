@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#6b3a1e">
+  <title>Miggo — Carta y precios</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Passion+One:wght@700;900&family=Outfit:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Splash de entrada (se retira en main.js) -->
+  <div id="splash" aria-hidden="true"><span>Miggo</span></div>
+
+  <div class="topbar">Del horno a tu mesa, todos los días.</div>
+  <header id="header" class="over-hero">
+    <a class="logo" href="#inicio">Miggo</a>
+    <nav aria-label="Principal">
+      <a href="#inicio" class="hide-sm">Inicio</a><a href="#onces">Onces</a><a href="#carta">Carta</a><a
+        href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="inicio" class="hero">
+      <div class="hero-bg" data-parallax></div>
+      <div class="hero-txt">
+        <p class="script">Desayunos y onces</p>
+        <h1><span>Miggo</span><span>Cafetería.</span></h1 <a class="pill big" href="#carta">Ver la carta</a>
+      </div>
+    </section>
+
+    <!-- Marquee de arcos (placeholders de foto) -->
+    <section class="marquee" aria-hidden="true">
+      <div class="track" id="track"></div>
+    </section>
+
+    <!-- Onces destacadas -->
+    <section id="onces" class="dark">
+      <svg class="drip" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+        <path
+          d="M0 0H1440V30C1380 30 1360 100 1290 100C1220 100 1200 20 1130 20C1060 20 1040 90 960 90C880 90 860 10 780 10C700 10 680 110 600 110C520 110 500 25 420 25C340 25 320 95 240 95C160 95 120 30 0 50Z"
+          fill="#fff" />
+      </svg>
+      <p class="script light">Para compartir</p>
+      <h2 class="big-title">Nuestras onces<i></i></h2>
+      <div class="carousel-wrap">
+        <button class="arrow" id="prev" aria-label="Anterior">‹</button>
+        <div class="carousel" id="carousel"></div>
+        <button class="arrow" id="next" aria-label="Siguiente">›</button>
+      </div>
+    </section>
+
+    <!-- Carta: tarjetas suaves por categoría -->
+    <section id="carta" class="menu">
+      <h2 class="menu-title">Carta y precios</h2>
+      <p class="menu-sub">Precios en pesos colombianos (COP).</p>
+      <div class="tools">
+        <input id="q" type="search" placeholder="Buscar en la carta…" aria-label="Buscar en la carta">
+        <div id="cats" class="chips" role="group" aria-label="Categorías"></div>
+      </div>
+      <div class="cards" id="cards"></div>
+      <p id="empty" hidden>No encontramos nada con esa búsqueda. Prueba con otra palabra.</p>
+    </section>
+  </main>
+
+  <footer id="contacto">
+    <h2 class="big-title sm">Miggo<i></i></h2>
+    <p>Dirección, horarios y teléfono: pendientes de completar.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
