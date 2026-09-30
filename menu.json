@@ -1,56 +1,235 @@
 {
-  "negocio": { "nombre": "Miggo", "whatsapp": "573000000000", "moneda": "COP" },
+  "negocio": {
+    "nombre": "Miggo",
+    "whatsapp": "573000000000",
+    "moneda": "COP"
+  },
   "categorias": [
-    { "id": "desayunos", "nombre": "Desayunos", "emoji": "🍳", "items": [
-      { "nombre": "Huevos al gusto", "desc": "Fritos o revueltos, con pan hojaldrado", "precio": 7000 },
-      { "nombre": "Huevos rancheros", "desc": "Huevos con ranchera + mozzarella", "precio": 10000 },
-      { "nombre": "Omelette de pollo", "desc": "Pollo, champiñones y queso", "precio": 12000 },
-      { "nombre": "Omelette de carne", "desc": "Carne desmechada + queso", "precio": 14000 },
-      { "nombre": "Omelette especial", "desc": "Jamón, maíz, cebolla, tomate + queso", "precio": 13000 },
-      { "nombre": "Calentao paisa", "desc": "Frijol, arroz, chorizo, huevo frito y arepa", "precio": 16000, "destacado": true },
-      { "nombre": "Tamal especial", "precio": 12000 },
-      { "nombre": "Changua", "precio": 8000 },
-      { "nombre": "Caldo de costilla", "precio": 9000 }
-    ]},
-    { "id": "calientes", "nombre": "Bebidas calientes", "emoji": "☕", "items": [
-      { "nombre": "Café americano", "precio": 3000 },
-      { "nombre": "Latte", "precio": 4000 },
-      { "nombre": "Capuchino", "precio": 5000 },
-      { "nombre": "Chocolate", "precio": 6000 },
-      { "nombre": "Milo caliente", "precio": 6500 },
-      { "nombre": "Latte chai", "precio": 6500 },
-      { "nombre": "Aromáticas", "desc": "Frutos rojos o frutos amarillos", "precio": 4500 }
-    ]},
-    { "id": "jugos", "nombre": "Jugos naturales", "emoji": "🍹", "items": [
-      { "nombre": "Jugo en agua", "desc": "Mora, mango, fresa o maracuyá", "precio": 5500 },
-      { "nombre": "Jugo en leche", "desc": "Mora, mango, fresa o maracuyá", "precio": 7000 },
-      { "nombre": "Zumo de naranja", "precio": 6000 }
-    ]},
-    { "id": "sodas", "nombre": "Sodas Miggo", "emoji": "🥤", "items": [
-      { "nombre": "Soda Miggo de frutos rojos", "precio": 9500, "destacado": true },
-      { "nombre": "Soda Miggo de maracuyá", "precio": 9500 }
-    ]},
-    { "id": "onces", "nombre": "Onces", "emoji": "🥐", "items": [
-      { "nombre": "Miggote", "desc": "Chocolate, buñuelo, queso y galletas Ducales", "precio": 17000, "destacado": true },
-      { "nombre": "Agua panela con queso", "desc": "Queso campesino, buñuelo y almojábana", "precio": 12000, "destacado": true },
-      { "nombre": "Chocolate caliente con onces", "desc": "Almojábana, pan de leche, queso y mantequilla", "precio": 14500, "destacado": true }
-    ]},
-    { "id": "amasijos", "nombre": "Amasijos", "emoji": "🥯", "items": [
-      { "nombre": "Buñuelo", "precio": 1000 },
-      { "nombre": "Buñuelo de mozzarella", "precio": 2000 },
-      { "nombre": "Almojábana", "precio": 2500 },
-      { "nombre": "Almojábana con bocadillo", "precio": 3000 },
-      { "nombre": "Rosquita", "precio": 2000 }
-    ]},
-    { "id": "fritos", "nombre": "Fritos", "emoji": "🥟", "items": [
-      { "nombre": "Empanadas mini", "precio": 1000 },
-      { "nombre": "Empanada de papa y pollo", "precio": 3000 },
-      { "nombre": "Empanada de papa y carne", "precio": 3000 },
-      { "nombre": "Empanada de lechona", "precio": 3200 },
-      { "nombre": "Empanada de queso mozzarella", "precio": 3200 },
-      { "nombre": "Arepa de huevo", "precio": 3000 },
-      { "nombre": "Arepa de huevo y carne", "precio": 5000 },
-      { "nombre": "Arepa de huevo y pollo", "precio": 5000 }
-    ]}
+    {
+      "id": "desayunos",
+      "nombre": "Desayunos",
+      "emoji": "🍳",
+      "items": [
+        {
+          "nombre": "Huevos al gusto",
+          "desc": "Fritos o revueltos, con pan hojaldrado",
+          "precio": 7000
+        },
+        {
+          "nombre": "Huevos rancheros",
+          "desc": "Huevos con ranchera + mozzarella",
+          "precio": 10000
+        },
+        {
+          "nombre": "Omelette de pollo",
+          "desc": "Pollo, champiñones y queso",
+          "precio": 12000
+        },
+        {
+          "nombre": "Omelette de carne",
+          "desc": "Carne desmechada + queso",
+          "precio": 14000
+        },
+        {
+          "nombre": "Omelette especial",
+          "desc": "Jamón, maíz, cebolla, tomate + queso",
+          "precio": 13000
+        },
+        {
+          "nombre": "Calentao paisa",
+          "desc": "Frijol, arroz, chorizo, huevo frito y arepa",
+          "precio": 16000,
+          "destacado": true
+        },
+        {
+          "nombre": "Tamal especial",
+          "precio": 12000
+        },
+        {
+          "nombre": "Changua",
+          "precio": 8000
+        },
+        {
+          "nombre": "Caldo de costilla",
+          "precio": 9000
+        }
+      ]
+    },
+    {
+      "id": "calientes",
+      "nombre": "Bebidas calientes",
+      "emoji": "☕",
+      "items": [
+        {
+          "nombre": "Café americano",
+          "precio": 3000
+        },
+        {
+          "nombre": "Latte",
+          "precio": 4000
+        },
+        {
+          "nombre": "Capuchino",
+          "precio": 5000
+        },
+        {
+          "nombre": "Chocolate",
+          "precio": 6000
+        },
+        {
+          "nombre": "Milo caliente",
+          "precio": 6500
+        },
+        {
+          "nombre": "Latte chai",
+          "precio": 6500
+        },
+        {
+          "nombre": "Aromáticas",
+          "desc": "Frutos rojos o frutos amarillos",
+          "precio": 4500
+        }
+      ]
+    },
+    {
+      "id": "jugos",
+      "nombre": "Jugos naturales",
+      "emoji": "🍹",
+      "items": [
+        {
+          "nombre": "Jugo en agua",
+          "desc": "Mora, mango, fresa o maracuyá",
+          "precio": 5500
+        },
+        {
+          "nombre": "Jugo en leche",
+          "desc": "Mora, mango, fresa o maracuyá",
+          "precio": 7000
+        },
+        {
+          "nombre": "Zumo de naranja",
+          "precio": 6000
+        }
+      ]
+    },
+    {
+      "id": "sodas",
+      "nombre": "Sodas Miggo",
+      "emoji": "🥤",
+      "items": [
+        {
+          "nombre": "Soda Miggo de frutos rojos",
+          "precio": 9500,
+          "destacado": true
+        },
+        {
+          "nombre": "Soda Miggo de maracuyá",
+          "precio": 9500
+        }
+      ]
+    },
+    {
+      "id": "onces",
+      "nombre": "Onces",
+      "emoji": "🥐",
+      "items": [
+        {
+          "nombre": "Miggote",
+          "desc": "Chocolate, buñuelo, pandebono, queso y galletas Ducales",
+          "precio": 17000,
+          "destacado": true
+        },
+        {
+          "nombre": "Agua panela con queso",
+          "desc": "Queso campesino, buñuelo y almojábana",
+          "precio": 12000,
+          "destacado": false
+        },
+        {
+          "nombre": "Chocolate caliente con onces",
+          "desc": "Almojábana, pan de leche, queso y mantequilla",
+          "precio": 14500,
+          "destacado": false
+        },
+        {
+          "nombre": "Sanduchote",
+          "desc": "Sandwich hecho con pan artesanal de la casa, proteína a elección (ropa vieja, pollo al curry, pollo en salsa de champiñones) lechuga, queso crema y queso mozarella, acompañados de papas a la francesa",
+          "precio": 19900,
+          "destacado": true
+        },
+        {
+          "nombre": "Chorizo",
+          "desc": "Chorizo artesanal acompañado de papas a la francesa",
+          "precio": 11900,
+          "destacado": true
+        }
+      ]
+    },
+    {
+      "id": "amasijos",
+      "nombre": "Amasijos",
+      "emoji": "🥯",
+      "items": [
+        {
+          "nombre": "Buñuelo",
+          "precio": 1000
+        },
+        {
+          "nombre": "Buñuelo de mozzarella",
+          "precio": 2000
+        },
+        {
+          "nombre": "Almojábana",
+          "precio": 2500
+        },
+        {
+          "nombre": "Almojábana con bocadillo",
+          "precio": 3000
+        },
+        {
+          "nombre": "Rosquita",
+          "precio": 2000
+        }
+      ]
+    },
+    {
+      "id": "fritos",
+      "nombre": "Fritos",
+      "emoji": "🥟",
+      "items": [
+        {
+          "nombre": "Empanadas mini",
+          "precio": 1000
+        },
+        {
+          "nombre": "Empanada de papa y pollo",
+          "precio": 3000
+        },
+        {
+          "nombre": "Empanada de papa y carne",
+          "precio": 3000
+        },
+        {
+          "nombre": "Empanada de lechona",
+          "precio": 3200
+        },
+        {
+          "nombre": "Empanada de queso mozzarella",
+          "precio": 3200
+        },
+        {
+          "nombre": "Arepa de huevo",
+          "precio": 3000
+        },
+        {
+          "nombre": "Arepa de huevo y carne",
+          "precio": 5000
+        },
+        {
+          "nombre": "Arepa de huevo y pollo",
+          "precio": 5000
+        }
+      ]
+    }
   ]
 }
