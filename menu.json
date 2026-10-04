@@ -23,7 +23,7 @@
         {
           "nombre": "Omelette de pollo",
           "desc": "Pollo, champiñones y queso",
-          "precio": 12000
+          "precio": 13000
         },
         {
           "nombre": "Omelette de carne",
@@ -43,7 +43,7 @@
         },
         {
           "nombre": "Tamal especial",
-          "precio": 12000
+          "precio": 10500
         },
         {
           "nombre": "Changua",
@@ -82,12 +82,12 @@
         },
         {
           "nombre": "Latte chai",
-          "precio": 6500
+          "precio": 7000
         },
         {
           "nombre": "Aromáticas",
           "desc": "Frutos rojos o frutos amarillos",
-          "precio": 4500
+          "precio": 3500
         }
       ]
     },
@@ -203,11 +203,11 @@
         },
         {
           "nombre": "Empanada de papa y pollo",
-          "precio": 3000
+          "precio": 3200
         },
         {
           "nombre": "Empanada de papa y carne",
-          "precio": 3000
+          "precio": 3200
         },
         {
           "nombre": "Empanada de lechona",
