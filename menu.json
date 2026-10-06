@@ -230,6 +230,61 @@
           "precio": 5000
         }
       ]
+    },
+    {
+      "id": "postres",
+      "nombre": "Postres (Sujetos a disponibilidad)",
+      "emoji": "🍰",
+      "items": [
+        {
+          "nombre": "Cheesecake frutos rojos",
+          "precio": 8000
+        },
+        {
+          "nombre": "Maracuyá",
+          "precio": 8000
+        },
+        {
+          "nombre": "Oreo",
+          "precio": 8000
+        },
+        {
+          "nombre": "Milhoja",
+          "precio": 7000
+        },
+        {
+          "nombre": "Tiramisú",
+          "precio": 8000
+        },
+        {
+          "nombre": "Brazo de reina",
+          "precio": 8000
+        },
+        {
+          "nombre": "Postre de limón",
+          "precio": 8000
+        },
+        {
+          "nombre": "Esponjado de maracuyá",
+          "precio": 7000
+        },
+        {
+          "nombre": "Esponjado de mora",
+          "precio": 7000
+        },
+        {
+          "nombre": "Esponjado de fresa",
+          "precio": 7000
+        },
+        {
+          "nombre": "Esponjado de chocolate arequipe",
+          "precio": 7000
+        },
+        {
+          "nombre": "Leche asada",
+          "precio": 7000
+        }
+      ]
     }
   ]
 }
