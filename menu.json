@@ -61,16 +61,20 @@
       "emoji": "☕",
       "items": [
         {
+          "nombre": "Perico",
+          "precio": 4000
+        },
+        {
           "nombre": "Café americano",
           "precio": 3000
         },
         {
           "nombre": "Latte",
-          "precio": 4000
+          "precio": 5000
         },
         {
           "nombre": "Capuchino",
-          "precio": 5000
+          "precio": 6000
         },
         {
           "nombre": "Chocolate",
